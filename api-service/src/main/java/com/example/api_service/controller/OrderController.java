@@ -50,6 +50,7 @@ public class OrderController {
         .path("/{id}")
         .buildAndExpand(createOrderDto.getId())
         .toUri();
+        String foo = "foo";
         return ResponseEntity.created(uri).build();
     }
     

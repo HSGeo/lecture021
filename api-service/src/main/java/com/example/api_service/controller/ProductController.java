@@ -30,6 +30,7 @@ public class ProductController {
     
     @GetMapping("/products")
     public ResponseEntity<List<ProductDto>> getAllProducts() {
+        String bar = "bar";
         return ResponseEntity.ok(productService.getAllProducts());
     }   
     
