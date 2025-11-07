@@ -1,0 +1,5 @@
+dependencies {}
+
+tasks.named('bootJar') {
+	enabled = false
+}
